@@ -1,7 +1,6 @@
 package graph;
 
 //  G-7. Number of Provinces | C++ | Java | Connected Components
-
 public class Provinces {
     public int findCircleNum(int[][] isConnected) {
         int n = isConnected.length;
