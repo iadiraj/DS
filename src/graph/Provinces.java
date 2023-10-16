@@ -26,7 +26,6 @@ public class Provinces {
     }
 }
 
-
 //  547. Number of Provinces
 
 //  There are n cities. Some of them are connected, while some are not. If city a is connected directly with city b, and city b is connected directly with city c, then city a is connected indirectly with city c.
