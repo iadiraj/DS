@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c33d830b-5040-4813-bbeb-f247d8703e92" name="Changes" comment="added STRIVER (leetcode 860) LemonadeChange" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-18.0.1.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Queue.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2JMIxrSoIB8CcoeiCDJ4SpShf6h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.ValidPalindrome">
+    <configuration name="LongestSubstringWithoutRepeating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.LongestSubstringWithoutRepeating" />
+      <module name="DS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="DS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ValidPalindrome" />
+      <module name="DS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="isSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.isSubsequence" />
+      <module name="DS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestKt" />
+      <module name="DS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ValidPalindrome" />
+      <item itemvalue="Application.isSubsequence" />
+      <item itemvalue="Application.LongestSubstringWithoutRepeating" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Kotlin.TestKt" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ValidPalindrome" />
+        <item itemvalue="Application.isSubsequence" />
+        <item itemvalue="Application.LongestSubstringWithoutRepeating" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Kotlin.TestKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c33d830b-5040-4813-bbeb-f247d8703e92" name="Changes" comment="" />
+      <created>1671881777178</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671881777178</updated>
+      <workItem from="1671881778423" duration="2449000" />
+      <workItem from="1671886284276" duration="1431000" />
+      <workItem from="1672164655232" duration="3846000" />
+      <workItem from="1672233554889" duration="5597000" />
+      <workItem from="1672305612810" duration="10000" />
+      <workItem from="1673115171303" duration="3436000" />
+      <workItem from="1673946058244" duration="1872000" />
+      <workItem from="1676803108782" duration="416000" />
+      <workItem from="1680430950445" duration="72000" />
+      <workItem from="1680431103566" duration="375000" />
+      <workItem from="1680431525369" duration="15000" />
+      <workItem from="1680431545751" duration="46000" />
+      <workItem from="1687284371895" duration="126000" />
+      <workItem from="1687284537685" duration="6015000" />
+      <workItem from="1687369333147" duration="2180000" />
+      <workItem from="1687771653463" duration="5094000" />
+      <workItem from="1687874996865" duration="601000" />
+      <workItem from="1688038417288" duration="601000" />
+      <workItem from="1688204319502" duration="4571000" />
+      <workItem from="1688292653315" duration="23556000" />
+      <workItem from="1688665061600" duration="600000" />
+      <workItem from="1691075303839" duration="4809000" />
+      <workItem from="1691689432542" duration="1687000" />
+      <workItem from="1691958883635" duration="1141000" />
+      <workItem from="1691960644428" duration="593000" />
+      <workItem from="1692096795379" duration="746000" />
+      <workItem from="1692104544434" duration="1238000" />
+      <workItem from="1692172832736" duration="1732000" />
+      <workItem from="1692213644537" duration="2486000" />
+      <workItem from="1692339271001" duration="25000" />
+      <workItem from="1692612068930" duration="3203000" />
+      <workItem from="1692770629902" duration="702000" />
+      <workItem from="1692819765656" duration="2308000" />
+      <workItem from="1692898961263" duration="1237000" />
+      <workItem from="1693164059874" duration="1140000" />
+      <workItem from="1693420536488" duration="35000" />
+      <workItem from="1693420577525" duration="2000" />
+      <workItem from="1693426977505" duration="172000" />
+      <workItem from="1693427187478" duration="37000" />
+      <workItem from="1693427418011" duration="85000" />
+      <workItem from="1693427959073" duration="77000" />
+      <workItem from="1693428264664" duration="46000" />
+      <workItem from="1693428456215" duration="60000" />
+      <workItem from="1693456087915" duration="17000" />
+      <workItem from="1693456469843" duration="663000" />
+      <workItem from="1693457213146" duration="94000" />
+      <workItem from="1693457693591" duration="87000" />
+      <workItem from="1693565135258" duration="616000" />
+      <workItem from="1694355234658" duration="49000" />
+      <workItem from="1694581983683" duration="119000" />
+      <workItem from="1694766138451" duration="2565000" />
+      <workItem from="1694977901955" duration="30000" />
+      <workItem from="1694977956403" duration="182000" />
+      <workItem from="1694978143655" duration="649000" />
+      <workItem from="1695992209486" duration="2955000" />
+      <workItem from="1696693921836" duration="795000" />
+      <workItem from="1696789947251" duration="3547000" />
+      <workItem from="1696795241043" duration="111000" />
+      <workItem from="1696873766436" duration="5672000" />
+      <workItem from="1697478843898" duration="2613000" />
+      <workItem from="1697536585649" duration="3699000" />
+      <workItem from="1697608253600" duration="3000" />
+      <workItem from="1697608379066" duration="2049000" />
+      <workItem from="1697913629200" duration="979000" />
+      <workItem from="1697998961604" duration="3806000" />
+      <workItem from="1698047995550" duration="5087000" />
+      <workItem from="1698227081116" duration="684000" />
+      <workItem from="1698258675563" duration="220000" />
+      <workItem from="1698396711612" duration="26000" />
+      <workItem from="1698816623537" duration="47000" />
+      <workItem from="1698816683533" duration="269000" />
+      <workItem from="1698816977454" duration="209000" />
+      <workItem from="1698824851421" duration="141000" />
+      <workItem from="1700654581091" duration="632000" />
+      <workItem from="1702643008518" duration="209000" />
+      <workItem from="1702643249520" duration="685000" />
+      <workItem from="1702663442588" duration="636000" />
+      <workItem from="1703470565983" duration="4536000" />
+      <workItem from="1703580609179" duration="1367000" />
+      <workItem from="1703698447829" duration="3861000" />
+      <workItem from="1703852208191" duration="5926000" />
+      <workItem from="1703961907467" duration="1696000" />
+      <workItem from="1704047181795" duration="677000" />
+      <workItem from="1704305092547" duration="712000" />
+      <workItem from="1704822413664" duration="1280000" />
+      <workItem from="1704910035813" duration="689000" />
+      <workItem from="1705000399230" duration="716000" />
+      <workItem from="1705083915308" duration="672000" />
+      <workItem from="1705509399686" duration="638000" />
+      <workItem from="1705842894579" duration="80000" />
+      <workItem from="1705843025808" duration="48000" />
+      <workItem from="1705843110323" duration="110000" />
+      <workItem from="1705843242675" duration="3313000" />
+      <workItem from="1706010629455" duration="12000" />
+      <workItem from="1706024169824" duration="2564000" />
+      <workItem from="1706378990515" duration="118000" />
+      <workItem from="1706870586818" duration="43000" />
+      <workItem from="1706870749954" duration="28000" />
+      <workItem from="1707052981757" duration="675000" />
+      <workItem from="1707146793994" duration="3039000" />
+      <workItem from="1707230432534" duration="849000" />
+      <workItem from="1707410283414" duration="180000" />
+    </task>
+    <task id="LOCAL-00005" summary="updated BreadthFirstSearch.java&#10;added DepthFirstSearch.java">
+      <option name="closed" value="true" />
+      <created>1696884552895</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696884552895</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated BreadthFirstSearch.java&#10;added DepthFirstSearch.java">
+      <option name="closed" value="true" />
+      <created>1696884585989</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696884585989</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added STRIVER G-7. Number of Provinces | C++ | Java | Connected Components">
+      <option name="closed" value="true" />
+      <created>1697479669611</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697479669611</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added STRIVER G-8. Number of Islands | Number of Connected Components in Matrix | C++ | Java">
+      <option name="closed" value="true" />
+      <created>1697536547962</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697536547962</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added STRIVER Find Second-Largest Element in Array | Remove duplicates from Sorted Array | Arrays Intro Video">
+      <option name="closed" value="true" />
+      <created>1697541462973</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697541462973</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added STRIVER Find Second-Largest Element in Array | Remove duplicates from Sorted Array | Arrays Intro Video">
+      <option name="closed" value="true" />
+      <created>1697541621187</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697541621187</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added STRIVER Find Second-Largest Element in Array | Remove duplicates from Sorted Array | Arrays Intro Video">
+      <option name="closed" value="true" />
+      <created>1697567648400</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697567648400</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added STRIVER Find Second-Largest Element in Array | Remove duplicates from Sorted Array | Arrays Intro Video">
+      <option name="closed" value="true" />
+      <created>1697569388192</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697569388192</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added STRIVER G-9. Flood Fill Algorithm | C++ | Java">
+      <option name="closed" value="true" />
+      <created>1697913883708</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1697913883708</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added STRIVER G-10. Rotten Oranges | C++ | Java">
+      <option name="closed" value="true" />
+      <created>1697999297828</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1697999297828</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added STRIVER G-11. Detect a Cycle in an Undirected Graph using BFS | C++ | Java">
+      <option name="closed" value="true" />
+      <created>1698006927067</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1698006927067</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added STRIVER G-11. Detect a Cycle in an Undirected Graph using DFS | C++ | Java">
+      <option name="closed" value="true" />
+      <created>1698054859783</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1698054859783</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added STRIVER G-13. Distance of nearest cell having 1 | 0/1 Matrix | C++ | Java">
+      <option name="closed" value="true" />
+      <created>1698064448374</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1698064448374</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added STRIVER G-13. Distance of nearest cell having 1 | 0/1 Matrix | C++ | Java">
+      <option name="closed" value="true" />
+      <created>1698064468411</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1698064468411</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added STRIVER Rotate Array by K places | Union, Intersection of Sorted Arrays | Move Zeros to End | Arrays Part-2">
+      <option name="closed" value="true" />
+      <created>1698067428945</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1698067428945</updated>
+    </task>
+    <task id="LOCAL-00020" summary="added STRIVER Longest Subarray with sum K | Brute - Better - Optimal | Generate Subarrays">
+      <option name="closed" value="true" />
+      <created>1703470703366</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1703470703366</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added STRIVER Longest Subarray with sum K | Brute - Better - Optimal | Generate Subarrays">
+      <option name="closed" value="true" />
+      <created>1703527326514</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1703527326514</updated>
+    </task>
+    <task id="LOCAL-00022" summary="added STRIVER 2 Sum Problem | 2 types of the same problem for Interviews | Brute-Better-Optimal">
+      <option name="closed" value="true" />
+      <created>1703528184645</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1703528184645</updated>
+    </task>
+    <task id="LOCAL-00023" summary="added STRIVER Find element that appears once | Find missing number | Max Consecutive number of 1's | Arrays Part-3">
+      <option name="closed" value="true" />
+      <created>1703528316433</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1703528316433</updated>
+    </task>
+    <task id="LOCAL-00024" summary="added STRIVER Find element that appears once | Find missing number | Max Consecutive number of 1's | Arrays Part-3">
+      <option name="closed" value="true" />
+      <created>1703528331221</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1703528331221</updated>
+    </task>
+    <task id="LOCAL-00025" summary="added STRIVER 2 Sum Problem | 2 types of the same problem for Interviews | Brute-Better-Optimal">
+      <option name="closed" value="true" />
+      <created>1703529716236</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1703529716236</updated>
+    </task>
+    <task id="LOCAL-00026" summary="added STRIVER Sort an array of 0's 1's &amp; 2's | Intuition of Algo🔥 | C++ Java Python | Brute-Better-Optimal">
+      <option name="closed" value="true" />
+      <created>1703580690830</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1703580690830</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added STRIVER Majority Element I | Brute-Better-Optimal | Moore's Voting Algorithm | Intuition 🔥|Brute to Optimal">
+      <option name="closed" value="true" />
+      <created>1703583162340</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1703583162340</updated>
+    </task>
+    <task id="LOCAL-00028" summary="added STRIVER DP 35. Best Time to Buy and Sell Stock | DP on Stocks 🔥">
+      <option name="closed" value="true" />
+      <created>1703702337514</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1703702337514</updated>
+    </task>
+    <task id="LOCAL-00029" summary="added STRIVER Rearrange Array Elements by Sign | 2 Varieties of same Problem">
+      <option name="closed" value="true" />
+      <created>1703857670967</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1703857670967</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Question 2. Crack The Coding Interview - Dinesh Varyani">
+      <option name="closed" value="true" />
+      <created>1703874218991</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1703874218991</updated>
+    </task>
+    <task id="LOCAL-00031" summary="added STRIVER Longest Consecutive Sequence | Google Interview Question | Brute Better Optimal">
+      <option name="closed" value="true" />
+      <created>1703875497915</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1703875497915</updated>
+    </task>
+    <task id="LOCAL-00032" summary="added STRIVER Largest Subarray with 0 Sum">
+      <option name="closed" value="true" />
+      <created>1703879875785</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1703879875785</updated>
+    </task>
+    <task id="LOCAL-00033" summary="added STRIVER Count Subarray sum Equals K | Brute - Better -Optimal">
+      <option name="closed" value="true" />
+      <created>1704047250490</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1704047250490</updated>
+    </task>
+    <task id="LOCAL-00034" summary="added STRIVER Merge Overlapping Intervals | Brute, Optimal with Precise TC analysis">
+      <option name="closed" value="true" />
+      <created>1704305153715</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1704305153715</updated>
+    </task>
+    <task id="LOCAL-00035" summary="added NeetCode.io Arrays Question.">
+      <option name="closed" value="true" />
+      <created>1704305193772</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1704305193772</updated>
+    </task>
+    <task id="LOCAL-00036" summary="added STRIVER DP 1. Introduction to Dynamic Programming | Memoization | Tabulation | Space Optimization Techniques">
+      <option name="closed" value="true" />
+      <created>1704822456791</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1704822456791</updated>
+    </task>
+    <task id="LOCAL-00037" summary="added STRIVER DP 2. Climbing Stairs | Learn How to Write 1D Recurrence Relations">
+      <option name="closed" value="true" />
+      <created>1704825019062</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1704825019062</updated>
+    </task>
+    <task id="LOCAL-00038" summary="added STRIVER DP 3. Frog Jump | Dynamic Programming | Learn to write 1D DP">
+      <option name="closed" value="true" />
+      <created>1704910116436</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1704910116436</updated>
+    </task>
+    <task id="LOCAL-00039" summary="added STRIVER DP 5. Maximum Sum of Non-Adjacent Elements | House Robber | 1-D | DP on Subsequences">
+      <option name="closed" value="true" />
+      <created>1705007423887</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1705007423887</updated>
+    </task>
+    <task id="LOCAL-00040" summary="added STRIVER Arrays Maximum Product Subarray - Best Intuitive Approach Discussed">
+      <option name="closed" value="true" />
+      <created>1705083975725</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1705083975725</updated>
+    </task>
+    <task id="LOCAL-00041" summary="added STRIVER DP 8. Grid Unique Paths | Learn Everything about DP on Grids | ALL TECHNIQUES 🔥">
+      <option name="closed" value="true" />
+      <created>1705843439679</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1705843439679</updated>
+    </task>
+    <task id="LOCAL-00042" summary="added STRIVER DP 9. Unique Paths 2 | DP on Grid with Maze Obstacles">
+      <option name="closed" value="true" />
+      <created>1705935895454</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1705935895454</updated>
+    </task>
+    <task id="LOCAL-00043" summary="added STRIVER DP 10. Minimum Path Sum in Grid | Asked to me In Microsoft Internship Interview | DP on GRIDS">
+      <option name="closed" value="true" />
+      <created>1706024221950</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1706024221950</updated>
+    </task>
+    <task id="LOCAL-00044" summary="added STRIVER DP 11. Triangle | Fixed Starting Point and Variable Ending Point | DP on GRIDS">
+      <option name="closed" value="true" />
+      <created>1706034077709</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1706034077709</updated>
+    </task>
+    <task id="LOCAL-00045" summary="added STRIVER DP 12. Minimum/Maximum Falling Path Sum | Variable Starting and Ending Points | DP on Grids">
+      <option name="closed" value="true" />
+      <created>1706379088871</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1706379088871</updated>
+    </task>
+    <task id="LOCAL-00046" summary="added STRIVER DP 14. Subset Sum Equals to Target | Identify DP on Subsequences and Ways to Solve them">
+      <option name="closed" value="true" />
+      <created>1707053049421</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1707053049422</updated>
+    </task>
+    <task id="LOCAL-00047" summary="added STRIVER DP 15. Partition Equal Subset Sum | DP on Subsequences">
+      <option name="closed" value="true" />
+      <created>1707146895813</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1707146895813</updated>
+    </task>
+    <task id="LOCAL-00048" summary="added STRIVER L16. Diameter of Binary Tree | C++ | Java">
+      <option name="closed" value="true" />
+      <created>1707147888870</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1707147888870</updated>
+    </task>
+    <task id="LOCAL-00049" summary="added STRIVER L15. Check for Balanced Binary Tree | C++ | Java">
+      <option name="closed" value="true" />
+      <created>1707148460672</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1707148460672</updated>
+    </task>
+    <task id="LOCAL-00050" summary="added STRIVER L17. Maximum Path Sum in Binary Tree | C++ | Java">
+      <option name="closed" value="true" />
+      <created>1707149296287</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1707149296288</updated>
+    </task>
+    <task id="LOCAL-00051" summary="added STRIVER L18. Check it two trees are Identical or Not | C++ | Java">
+      <option name="closed" value="true" />
+      <created>1707231157021</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1707231157022</updated>
+    </task>
+    <task id="LOCAL-00052" summary="added STRIVER A2Z AssignCookies">
+      <option name="closed" value="true" />
+      <created>1707231265114</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1707231265114</updated>
+    </task>
+    <task id="LOCAL-00053" summary="added STRIVER (leetcode 860) LemonadeChange">
+      <option name="closed" value="true" />
+      <created>1707410390051</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1707410390052</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added STRIVER Rearrange Array Elements by Sign | 2 Varieties of same Problem" />
+    <MESSAGE value="Question 2. Crack The Coding Interview - Dinesh Varyani" />
+    <MESSAGE value="added STRIVER Longest Consecutive Sequence | Google Interview Question | Brute Better Optimal" />
+    <MESSAGE value="added STRIVER Largest Subarray with 0 Sum" />
+    <MESSAGE value="added STRIVER Count Subarray sum Equals K | Brute - Better -Optimal" />
+    <MESSAGE value="added STRIVER Merge Overlapping Intervals | Brute, Optimal with Precise TC analysis" />
+    <MESSAGE value="added NeetCode.io Arrays Question." />
+    <MESSAGE value="added STRIVER DP 1. Introduction to Dynamic Programming | Memoization | Tabulation | Space Optimization Techniques" />
+    <MESSAGE value="added STRIVER DP 2. Climbing Stairs | Learn How to Write 1D Recurrence Relations" />
+    <MESSAGE value="added STRIVER DP 3. Frog Jump | Dynamic Programming | Learn to write 1D DP" />
+    <MESSAGE value="added STRIVER DP 5. Maximum Sum of Non-Adjacent Elements | House Robber | 1-D | DP on Subsequences" />
+    <MESSAGE value="added STRIVER Arrays Maximum Product Subarray - Best Intuitive Approach Discussed" />
+    <MESSAGE value="added STRIVER DP 8. Grid Unique Paths | Learn Everything about DP on Grids | ALL TECHNIQUES " />
+    <MESSAGE value="added STRIVER DP 9. Unique Paths 2 | DP on Grid with Maze Obstacles" />
+    <MESSAGE value="added STRIVER DP 10. Minimum Path Sum in Grid | Asked to me In Microsoft Internship Interview | DP on GRIDS" />
+    <MESSAGE value="added STRIVER DP 11. Triangle | Fixed Starting Point and Variable Ending Point | DP on GRIDS" />
+    <MESSAGE value="added STRIVER DP 12. Minimum/Maximum Falling Path Sum | Variable Starting and Ending Points | DP on Grids" />
+    <MESSAGE value="added STRIVER DP 14. Subset Sum Equals to Target | Identify DP on Subsequences and Ways to Solve them" />
+    <MESSAGE value="added STRIVER DP 15. Partition Equal Subset Sum | DP on Subsequences" />
+    <MESSAGE value="added STRIVER L16. Diameter of Binary Tree | C++ | Java" />
+    <MESSAGE value="added STRIVER L15. Check for Balanced Binary Tree | C++ | Java" />
+    <MESSAGE value="added STRIVER L17. Maximum Path Sum in Binary Tree | C++ | Java" />
+    <MESSAGE value="added STRIVER L18. Check it two trees are Identical or Not | C++ | Java" />
+    <MESSAGE value="added STRIVER A2Z AssignCookies" />
+    <MESSAGE value="added STRIVER (leetcode 860) LemonadeChange" />
+    <option name="LAST_COMMIT_MESSAGE" value="added STRIVER (leetcode 860) LemonadeChange" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/ValidPalindrome.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
